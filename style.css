@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', 'Impact', sans-serif;
 }
 
 a {
@@ -26,6 +26,23 @@ a:hover {
 a:link, a:visited, a:active {
   color: #999;
 }
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+/* Blocks setting*/
+
+nav#topMenu {
+  background-color: #030056;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
 
 footer {
   text-align: center;
