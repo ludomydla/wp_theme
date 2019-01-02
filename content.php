@@ -1,5 +1,5 @@
 <div class="post">
-  <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+  <h2>CONTENT.php - <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
   <p class="meta">
     <?php the_date(); ?> by <a href="#"><?php the_author(); ?></a>
     <a href="<?php comments_link(); ?>">
